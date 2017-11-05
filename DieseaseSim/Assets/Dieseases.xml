@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dieseases xmlns="http://tempuri.org/Data_XML_Scheme.xsd">
+  
+  
+ 
+  <Diesease>
+    <Name>Bacterial</Name>
+      <Infectivity>1</Infectivity>
+      <Pathogenicity>1</Pathogenicity>
+      <Virulence>3</Virulence>
+      <Toxigenicity>5</Toxigenicity>
+      <Resistance>7</Resistance>
+      <Antigenicity>10</Antigenicity>
+      <Chronicity>ShortTerm</Chronicity>
+  </Diesease> 
+</Dieseases> 

@@ -1,0 +1,7 @@
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\bin\Debug\DieseaseSim.exe.config
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\bin\Debug\DieseaseSim.exe
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\bin\Debug\DieseaseSim.pdb
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\obj\Debug\DieseaseSim.csprojResolveAssemblyReference.cache
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\obj\Debug\DieseaseSim.csproj.CoreCompileInputs.cache
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\obj\Debug\DieseaseSim.exe
+C:\Users\christian\Documents\Visual Studio 2017\Projects\DieseaseSim\DieseaseSim\obj\Debug\DieseaseSim.pdb

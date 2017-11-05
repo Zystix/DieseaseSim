@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Data_XML_Scheme"
+    targetNamespace="http://tempuri.org/Data_XML_Scheme.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Data_XML_Scheme.xsd"
+    xmlns:mstns="http://tempuri.org/Data_XML_Scheme.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  
+    <xs:element name="Dieseases"/>
+  
+          <xs:simpleType name="ChronType">
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="ShortTerm"/>
+              <xs:enumeration value="LongTerm"/>
+              <xs:enumeration value="Debilitating"/>
+              <xs:enumeration value="Lethal"/>
+            </xs:restriction>
+          </xs:simpleType>
+
+  
+  <xs:element name="Diesease">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" type="xs:string"/>
+        <xs:element name="Infectivity" type="xs:double"/>
+        <xs:element name="Pathogenicity" type="xs:double"/>
+        <xs:element name="Virulence" type="xs:double"/>
+        <xs:element name="Toxigenicity" type ="xs:double"/>
+        <xs:element name="Resistance" type="xs:double"/>
+        <xs:element name="Antigenicity" type="xs:double"/>
+        <xs:element name="Chronicity" type="ChronType"/>
+      </xs:sequence>  
+    </xs:complexType>
+  </xs:element>
+  
+  
+</xs:schema>
